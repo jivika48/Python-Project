@@ -18,7 +18,7 @@ def greet(sentence):
             return random.choice(CARE_RESPONSES)
         
 while (flag==True):
-    user_response = input("YOU: ").lower()
+    user_response = input("YOU ").lower()
 
     if 'bye' not in user_response:
         if 'thanks' in user_response or 'thank you' in user_response:
